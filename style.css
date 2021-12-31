@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}.header{
+    width: 100%;
+    height: 870px;
+    background-image: url(./ip.jpg);
+    background-size: 100%;
+}
+.down{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 200px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 10px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}
+.click{
+    border-bottom: 1px solid white;
+    color: red;
+    padding-bottom:20px;
+    font-size: 24px;
+    padding-top: 30px;
+    font-weight: 400;
+}
+.choose{
+    padding: 15px;
+    font-size: 16px;
+}
+.download{
+    background-color: red;
+    padding: 10px 130px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px; 
+}
+.download:hover{
+    background-color: #ccc;
+    color:black;
+}
+.down:hover{
+    opacity: 0.6;
+}
+.theapp{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content{
+    width: 70%;
+    float: left;
+}
+.app{
+    padding-left: 10px;
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+}
+.buy{
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 50px;
+    color: #4CAF50;
+}
+.take{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    margin: 10px 0 ;
+}
+.dow{
+    margin: 16px 10px;
+    padding: 12px 24px;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+}
+.dow:hover{
+    background-color: grey;
+}
+.available{
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 10px 0  ;
+}
+.clarity{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 500px;
+}
+.anh{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 60px;
+    border-radius: 5px;
+    height: 100%;
+}
+.noidung{
+    padding-top: 40px;
+}
+.cla{
+    font-size: 64px;
+    padding-bottom: 5px;
+}
+.who{
+    font-size: 60px;
+    padding-bottom: 5px;
+    color: red;
+}
+.are{
+    font-size: 20px;
+    padding-left: 15px;
+    text-align: justify;
+    padding-right: 5px;
+}
+.features{
+    width: 100%;
+    height: 700px;
+    background-color: #616161;
+    margin-top: 210px;
+    text-align: center;
+    color:white;
+}
+.fu{
+    padding-top: 40px;
+    font-size: 64px;
+    padding-bottom: 15px;
+}
+.ta{
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+.icons table{
+    width: 100%;
+    height: 70%;
+}
+.icons table tr td{
+    width: 100px;
+    height: 80px;
+}
+.fa-bolt{
+    font-size: 60px;
+    color: yellow;
+}
+.fa-heart{
+    color: red;
+    font-size: 60px;
+}
+.fa-camera
+{
+    color: yellow;
+    font-size: 60px;
+}
+.fa-battery-three-quarters
+{
+    color: greenyellow;
+    font-size: 60px;
+}
+.fa-gem
+{
+    color: white;
+    font-size: 60px;
+}
+.fa-cloud
+{
+    color: blue;
+    font-size: 60px;
+}
+.fa-globe-europe
+{
+    color: yellow;
+    font-size: 60px;
+}
+.fa-hdd
+{
+    color: blue;
+    font-size: 60px;
+}
+.fa-user-alt
+{
+    color: white;
+    font-size: 60px;
+}
+.fa-shield-alt
+{
+    color: goldenrod;
+    font-size: 60px;
+}
+.fa-wifi
+{
+    color: grey;
+    font-size: 60px;
+}
+.fa-image
+{
+    color: red;
+    font-size: 60px;
+}
+.fo{
+    font-size: 16px;
+}
+.pricing{
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+.pri{
+    padding: 24px 0;
+    font-size: 64px;
+}
+.cho{
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+.basic, .prenium{
+    float: left;
+    width: 47%;
+    height: 470px;
+    background-color: #f1f1f1;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.bas{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: grey;
+    font-size: 30px;
+    color:white
+}
+.pho, .fea, .no, .off{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 18px;
+}
+.do{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 30px;
+}
+.but{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.pre{
+    background-color: red;
+}
+.but:hover{
+    background-color: #ccc;
+    color: black;
+}
+.basic:hover, .prenium:hover{
+    opacity: 0.8;
+}
+b{
+    font-size: 25px;
+}
+.footer{
+    width: 100%;
+    height: 175px;
+    background-color: #ccc;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.ft{
+    padding-top: 75px;
+    
+}
+.ft i:hover{
+    opacity: 0.3;
+}
